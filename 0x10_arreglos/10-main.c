@@ -28,7 +28,7 @@ int main()
     printf("Inserte el numero del indice en el cual desee agregar un valor:\n");
     scanf("%d",&indice);
     printf("Ingrese el valor que desee agragar:\n");
-    scanf("%d",&ag);
+    scanf("%d",ag);
 
     for(int i=element-1;i>=indice;i--)
     {
